@@ -1,0 +1,28 @@
+.map {
+  width: 500px;
+  height: 500px;
+}
+
+.disFlex__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.disFlex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.card {
+  p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  cursor: pointer;
+  min-width: 250px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
